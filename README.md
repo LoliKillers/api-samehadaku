@@ -1,58 +1,86 @@
-# Samehadaku-Rest-Api
+<div align="center">
+<img src="https://telegra.ph/file/9d74c8ff80bb0b1b8f7a5.jpg" alt="ARI" width="300" />
 
-SRA is a rest-api which is scraping to the [samehadaku](https://samehadaku.vip) website and made up using Express.
+![ARI](https://socialify.git.ci/LoliKillers/api-samehadaku/image?description=1&font=Source%20Code%20Pro&forks=1&language=1&owner=1&pattern=Floating%20Cogs&stargazers=1&theme=Dark) <br>
 
-## Demo
-[Click to show preview](https://samehadaku-rest-api.herokuapp.com/)
+<p align="center">
+<a href="https://t.me/Loli_Killers" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+<a href="https://wa.me/6285852203076" alt="Whatsapp!"> <img src="https://aleen42.github.io/badges/src/whatsapp.svg" /> </a>
+<a href="https://github.com/LoliKillers/api-samehadaku/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" /> </a>
+</p>
+<p align="center">
+<a href="https://github.com/LoliKillers/api-samehadaku" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/LoliKillers/api-samehadaku?style=flat&logo=github&color=success" /> </a>
+<a href="https://github.com/LoliKillers/api-samehadaku" alt="GitHub commit activity"> <img src="https://img.shields.io/github/commit-activity/m/LoliKillers/api-samehadaku" /> </a>
+<a href="https://github.com/LoliKillers/api-samehadaku/graphs/contributors" alt="GitHub contributors"> <img src="https://img.shields.io/github/contributors/LoliKillers/api-samehadaku?style=flat&logo=github" /> </a>
+<a href="https://github.com/LoliKillers/api-samehadaku/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/LoliKillers/api-samehadaku?label=Forks&logo=github" /> </a>
+<a href="https://github.com/LoliKillers/api-samehadaku" alt="GitHub closed pull requests"> <img src="https://img.shields.io/github/issues-pr-closed-raw/LoliKillers/api-samehadaku?color=success" /> </a>
+<a href="https://github.com/LoliKillers/api-samehadaku" alt="GitHub issues"> <img src="https://img.shields.io/github/issues-raw/LoliKillers/api-samehadaku?style=flat&logo=github&color=yellow" /> </a>
+</p>
+</div>
+
+# API SAMEHADAKU
+
+>
+>
+>
+</div>
+<p align="center">
+  <a href="https://github.com/LoliKillers"><img title="Author" src="https://img.shields.io/badge/Author-Loli Killers-red.svg?style=for-the-badge&logo=github" /></a>
+  <h4 align="center">
+</h4>
+</p>
+
+SRA adalah rest-api yang mengarah ke [samehadaku](https://samehadaku.vip) website yang saya dibuat menggunakan Express.
+
+## Contoh
+Contoh rest api [Samehadaku](https://arnz-samehadaku.herokuapp.com/) yang sudah saya buat
 
 ## Installation
 
-Use the package manager [npm](https://npmjs.com/) to install SRA's package.
+Download dan install terlebih dahulu package [npm](https://npmjs.com/)
 
-* Clone the Repo
-* Install all packages using command
+* Clone repo ini terlebih dahulu
+* Install semua packagae/module yang akan di gunakan
 ```bash
 npm install
 ```
 
 ## Usage
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](<https://railway.app/new/template?template=https://github.com/LoliKillers/samehadaku-api>)<br>
-
-Start server with command:
+Untuk memulai server, ketik perintah dibawah melalui CMD:
 ```bash
 npm start
 ```
-or
+Atau
 ```bash
 npm run nodemon
 ```
-Then open [localhost:3000](http://localhost:3000/)
+Dan buka tauatan [localhost:3000](http://localhost:3000/)
 
 ## Endpoint
 
-| Url        | Params           | Type | Description |
+| Url        | Params           | Type | Keterangan |
 | ------------- |:-------------:| :-----:|  :-----|
-| /      | - | - | homepage  
-| /page/{page}    | page     |  number | homepage-pagination |
+| /      | - | - | beranda  
+| /page/{page}    | page     |  angka | halaman beranda |
 | /blog   | -     |  - | blog |
-| /blog/{page}   | page     |  number | blog-pagination |
-| /blog/read/{id}   | id     |  String | read blog |
+| /blog/{page}   | page     |  angka | halaman blog |
+| /blog/read/{id}   | id     |  String | baca blog |
 | /anime/{id}   | id     |  String | detail anime |
-| /anime/eps/{link}   | link     |  String | detail anime's eps |
-| /search/{title}/{page}   | title, page     |  String, number | search anime |
-| /season | -     |  - |list anime of this season|
-| /date-release | -     |  - | anime release date |
-| /list-anime/{page} | page     |  number | list of all anime |
-| /blog-category/{category}/{page} | category, page     |  String, number | list items of category |
-| /tag/{tag} | tag   |  String | list items of tag |
-| /daftar-genre | -   |  String | genre list |
-| /genre/{id} | id   |  String | show anime by genre |
+| /anime/eps/{link}   | link     |  String | detail episode anime |
+| /search/{title}/{page}   | judul, halaman     |  String, angka | cari anime |
+| /season | -     |  - | daftar season dari anime |
+| /date-release | -     |  - | tanggal rilis anime |
+| /list-anime/{page} | page     |  angka | daftar dari semua anime |
+| /blog-category/{category}/{page} | kategori, halaman     |  String, angka | daftar item dari halaman |
+| /tag/{tag} | tag   |  String | daftar item dari tag |
+| /daftar-genre | -   |  String | daftar genre|
+| /genre/{id} | id   |  String | menampilkan anime dari genre |
 
 
 ## Sample response
 
-Api Endpoint : https://samehadaku-rest-api.herokuapp.com/
+Hasil result json : https://arnz-samehadaku.herokuapp.com/
 ```json
 {
     title: "Re:Zero kara Hajimeru Isekai Seikatsu Season 2",
@@ -71,11 +99,14 @@ Api Endpoint : https://samehadaku-rest-api.herokuapp.com/
 },
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Credits 📍
+* Nah, itu semua ada dalam sejarah komit
+Jangan ragu untuk membuka permintaan tarik jika anda menemukan kesalahan
+* Jangan lupa untuk meninhgalkan bintang ok
+* Dan tunggu update saya selanjutnya!!👣
+* Mastah diem yak, jangan dibuli, namanya juga pemula stah
 
-Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-Copyright (c) 2020-present, ahmadkhamdani9 (rizalord)
+Copyright (c) 2020-present
