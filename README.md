@@ -30,7 +30,8 @@
 </h4>
 </p>
 
-SRA adalah rest-api yang mengarah ke [samehadaku](https://samehadaku.vip) website yang saya dibuat menggunakan Express.
+## Note
+Api samehadaku adalah rest-api yang mengarah ke [samehadaku](https://samehadaku.vip) website yang saya dibuat menggunakan Express.
 
 ## Contoh
 Contoh rest api [Samehadaku](https://arnz-samehadaku.herokuapp.com/) yang sudah saya buat
