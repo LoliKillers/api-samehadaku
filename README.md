@@ -4,7 +4,6 @@
 ![ARI](https://socialify.git.ci/LoliKillers/api-samehadaku/image?description=1&font=Source%20Code%20Pro&forks=1&language=1&owner=1&pattern=Floating%20Cogs&stargazers=1&theme=Dark) <br>
 
 <p align="center">
-<a href="https://t.me/Loli_Killers" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 <a href="https://wa.me/6285852203076" alt="Whatsapp!"> <img src="https://aleen42.github.io/badges/src/whatsapp.svg" /> </a>
 <a href="https://github.com/LoliKillers/api-samehadaku/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" /> </a>
 </p>
@@ -34,7 +33,7 @@
 Api samehadaku adalah rest-api yang mengarah ke [samehadaku](https://samehadaku.vip) website yang saya dibuat menggunakan Express.
 
 ## Contoh
-Contoh rest api [Samehadaku](https://arnz-samehadaku.herokuapp.com/) yang sudah saya buat
+Contoh rest api [Samehadaku](https://loli-samehadaku.herokuapp.com/) yang sudah saya buat
 
 ## Installation
 
@@ -56,7 +55,7 @@ Atau
 ```bash
 npm run nodemon
 ```
-Dan buka tauatan [localhost:3000](http://localhost:3000/)
+Dan buka tauatan [localhost:8080](http://localhost:8080/)
 
 ## Endpoint
 
@@ -81,7 +80,7 @@ Dan buka tauatan [localhost:3000](http://localhost:3000/)
 
 ## Sample response
 
-Hasil result json : https://arnz-samehadaku.herokuapp.com/
+Hasil result json : https://loli-samehadaku.herokuapp.com/
 ```json
 {
     title: "Re:Zero kara Hajimeru Isekai Seikatsu Season 2",
