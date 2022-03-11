@@ -40,6 +40,6 @@ app.use((err, req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log("App listen on localhost port : " + PORT)
+  console.log("App listen on localhost PORT : " + PORT)
 })
 module.exports = app
