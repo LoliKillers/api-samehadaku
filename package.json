@@ -1,0 +1,34 @@
+{
+  "name": "api-samehadaku",
+  "version": "1.0.0",
+  "description": "Example api from samehadaku.vip",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoliKillers/api-samehadaku.git"
+  },
+  "keywords": [
+    "RestApi",
+    "Api",
+    "Anime",
+    "Samehadaku"
+  ],
+  "author": "LoliKillers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LoliKillers/api-samehadaku/issues"
+  },
+  "homepage": "https://github.com/LoliKillers/api-samehadaku#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "scraperjs": "^1.2.0"
+  }
+}
